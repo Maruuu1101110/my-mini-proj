@@ -1,0 +1,14 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore database files
+*.db
+
+# Ignore VSCode or editor folders
+.vscode/
+.idea/
+
+# Ignore hidden folders
+.intent_recog/__pycache__/
+
