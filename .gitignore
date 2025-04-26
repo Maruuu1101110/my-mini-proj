@@ -10,5 +10,5 @@ __pycache__/
 .idea/
 
 # Ignore hidden folders
-.intent_recog/__pycache__/
+Baybayin_Translator/.intent_recog/__pycache__/
 
