@@ -1,0 +1,20 @@
+{
+  "greetings": ["hello", "hi", "hey there", "good morning", "good evening","how are you"],
+  "farewells": ["bye", "see you", "goodnight", "goodbye"],
+  "gratitude": ["thanks", "thank you", "appreciate it", "much obliged","nice"],
+  "acknowledgment": ["okay", "got it", "understood", "alright", "noted"],
+  "casual_chat": ["what’s up", "sup", "hey dude", "how’s it going"],
+  "feelings": ["I’m happy", "I feel sad", "I’m tired", "I’m excited"],
+  "small_talk": ["how’s your day", "what are you up to", "how’s it going"],
+  "jokes": ["tell me a joke", "make me laugh", "say something funny"],
+  "fun_facts": ["tell me something interesting", "give me a fun fact"],
+  "ai_questions": ["what can you do", "who are you", "what’s your name"],
+  "general_questions": ["what’s the time", "where are you from", "how old are you"],
+  "opinions": ["do you like music", "what do you think about movies"],
+  "reminder": ["remind me", "set a reminder", "reminder"],
+  "calculation": ["plus", "minus", "divide", "multiply", "add", "subtract","+","-"],
+  "weather": ["weather","what’s the weather", "is it raining", "how hot is it today"],
+  "definitions": ["what does [word] mean", "define [word]"],
+  "conversions": ["convert meters to feet", "how many pounds in a kg"],
+  "commands": ["turn on the lights", "play music", "open YouTube"]
+}

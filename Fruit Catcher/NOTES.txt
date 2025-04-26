@@ -1,0 +1,19 @@
+NOTE:
+	>> MAKE SURE TO RUN main.py INSIDE THE FOLDER
+
+UPDATE 0.1:
+	>> Added basket sprite and background.
+
+UPDATE 0.2:
+	>> Added different fruit sprites for FRUIT object.
+	>> New feature for basket(gets full when score reaches specific values[50,100])
+
+UPDATE 0.3:
+	>> Added 'GAME PAUSE' function.
+	>> Added HIGHSCORE feature.
+	>> Added OVERLAYS for darker background during game breaks.
+	>> Added custom fonts.
+
+UPDATE 0.4:
+	>> Object size flexibility when window resizes.
+	>> Added some small improvements on text rendering during 'GAME OVER' and 'PAUSE'.
