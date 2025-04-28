@@ -153,9 +153,11 @@ class MainGame:
         #collision
         for pipe in self.pipes:
             if self.bee.rect.colliderect(pipe.rect):
+                pg.time.delay(1000)
                 self.game_over()
 
         if self.bee.y > HEIGHT or self.bee.y < 0:
+            pg.time.delay(1000)
             self.game_over()
 
         #scorringg
