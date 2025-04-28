@@ -5,5 +5,6 @@ This repo is dedicated to all of my mini projects since I started learning. Feel
 -- Dino Game (pygame project)
 -- Fruit Catcher (pygame project)
 -- Hangman Game (python terminal project)
+-- Flappy Bee (pygame project (school - copy of Flappy Bird))
 
 ** more comming soon!
