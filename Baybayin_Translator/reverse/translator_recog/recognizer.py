@@ -10,13 +10,14 @@ def load_file():
 data = load_file()
 
 def slowPrint(words):
-    print("Baybayin: ",end="",flush=True)
+    print("\n\nLatin: ",end="",flush=True)
     for i in words:
         print(i,end="",flush=True)
-        time.sleep(0.1)
+        time.sleep(0.05)
     print()
 
 def process(words):
+    words.strip()
     words = list(words)
     #print(words)
     new_words = []
@@ -28,14 +29,9 @@ def process(words):
             i += 1
             continue
 
-        if words[i] in '""<>/?:;[]{}|\!@#$%^&*()_-+=~``':
-            new_words.append(words[i])
-            i += 1
-            continue
-
         if i + 2 < len(words):
             trio = words[i] + words[i + 1] + words[i+2]
-            for value, keyword_list in data.items():
+            for keyword_list, value in data.items():
                 if trio in keyword_list:
                     new_words.append(value)
                     i += 3
@@ -44,7 +40,7 @@ def process(words):
 
         if not matched and i + 1 < len(words):
             pair = words[i] + words[i + 1]
-            for value, keyword_list in data.items():
+            for keyword_list, value in data.items():
                 if pair in keyword_list:
                     new_words.append(value)
                     i += 2
@@ -52,14 +48,12 @@ def process(words):
                     break
 
         if not matched:
-            for value, keyword_list in data.items():
+            for keyword_list, value in data.items():
                 if words[i] in keyword_list:
                     new_words.append(value)
                     matched = True
                     break
-                
             i += 1
-
 
     return "".join(new_words)
 
